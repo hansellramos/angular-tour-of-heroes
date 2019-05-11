@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'variables';
+
+h1 {
+    color: $primary-color;
+}
+
+h2, h3 {
+    color: $secondary-color;
+    font-family: $font;
+    font-weight: $font-weight;
+}
+
+body {
+    margin: $margin-body;
+
+    input[type=text]
+    , input[type=button]
+    , button {
+        color: $form-color;
+        font-family: $form-font;
+    }
+}
+
+* {
+    font-family: $font;
+}
